@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "alter-rewrite"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+wit = "^6.0.0"
+rich = "^10.6.0"
+python-dotenv = "^0.18.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+flake8-import-order = "^0.18.1"
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
